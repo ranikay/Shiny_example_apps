@@ -1,5 +1,6 @@
 library(shiny)
 library(RColorBrewer)
+library(dotenv)
 # View the running app at localhost:7445
 # options(shiny.port = 7445)
 
@@ -10,7 +11,7 @@ shinyServer(function(input, output, session) {
                          Name = NULL,
                          Email = NULL,
                          Image = NULL)
-  ORG_DOMAIN <- 'gmail.com'
+  ORG_DOMAIN <- Sys.getenv('ORG_DOMAIN')
   
   # Given an email address, determine whether the user can access the app
   observeEvent(input$g_email, {

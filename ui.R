@@ -1,5 +1,8 @@
 library(shiny)
 library(shinyjs)
+library(dotenv)
+
+CLIENT_ID <- Sys.getenv('CLIENT_ID')
 
 shinyUI(
   
@@ -9,7 +12,7 @@ shinyUI(
       tags$meta(name = 'google-signin-scope', 
                 content = 'profile email'),
       tags$meta(name = 'google-signin-client_id', 
-                content = '<CLIENT_ID>.apps.googleusercontent.com'),
+                content = CLIENT_ID),
       HTML('<script src="https://apis.google.com/js/platform.js?onload=init"></script>'),
       includeScript('www/signin.js')
     ),
