@@ -164,4 +164,4 @@ if (md5('hello') != '5d41402abc4b2a76b9719d911017c592') {
   }
 }
 
-console.log(md5('hell0w0rld'));
+//console.log(md5('pw'));
