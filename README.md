@@ -2,7 +2,7 @@
 
 ### Shiny_Google_SignIn: Shiny app authentication using the Google Sign-In API
 
-A live demo is deployed to ShinyApps.io [here](https://ranipowers.shinyapps.io/Shiny_auth_example/).
+A live demo is deployed to ShinyApps.io [here](https://ranipowers.shinyapps.io/shiny_google_signin/).
 
 The goal of this app was to build a simple authentication scheme using Google's federated login to avoid having to manage usernames and passwords. The Google Sign-In API does not require a secret and no other Google API services are needed. I initially based this app on [this example](https://github.com/dkulp2/Google-Sign-In), which I extended to illustrate how you could display, for example, a dashboard to users after they had logged in with a company email.
 
@@ -53,7 +53,7 @@ I used the `credentials` variable in `server.R` to illustrate 2 ways of handling
 Fork this project and create a `.env` file in the root (`Shiny_env`) directory with this format:
 
 ```
-LOGIN_HASH=28be1fa52ff6350eb913dd693a6c3098
+LOGIN_HASH="28be1fa52ff6350eb913dd693a6c3098"
 ```
 
 Run the app and log in as either of the two users.
