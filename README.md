@@ -27,4 +27,4 @@ Optional:
 
 #### Security
 
-Noted by <a href="https://github.com/dkulp2/Google-Sign-In" target="_blank">dkulp2</a> in their original app: "The API documentation strongly encourages using a verified token to access a user profile on the server side because a client can spoof an ID. However, I simply use the Shiny.onInputChange javascript call to marshall messages from the client to the server. I can't vouch for the security of Shiny.onInputChange or this app, in general. Use at your own risk."
+[Noted by David Kulp in his Google Sign-In app](https://github.com/dkulp2/Google-Sign-In): "The API documentation strongly encourages using a verified token to access a user profile on the server side because a client can spoof an ID. However, I simply use the Shiny.onInputChange javascript call to marshall messages from the client to the server. I can't vouch for the security of Shiny.onInputChange or this app, in general. Use at your own risk."
