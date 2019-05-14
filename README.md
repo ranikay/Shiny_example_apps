@@ -4,7 +4,7 @@
 
 A live demo is deployed to ShinyApps.io [here](https://ranipowers.shinyapps.io/Shiny_auth_example/).
 
-The goal of this app was to build a simple authentication scheme using Google's federated login to avoid having to manage usernames and passwords. The Google Sign-In API does not require a secret and no other Google API services are needed. I initially based this app on [this example](https://github.com/dkulp2/Google-Sign-In){target="_blank"}, which I extended to illustrate how you could display, for example, a dashboard to users after they had logged in with a company email.
+The goal of this app was to build a simple authentication scheme using Google's federated login to avoid having to manage usernames and passwords. The Google Sign-In API does not require a secret and no other Google API services are needed. I initially based this app on [this example](https://github.com/dkulp2/Google-Sign-In), which I extended to illustrate how you could display, for example, a dashboard to users after they had logged in with a company email.
 
 There are other ways to do Shiny app authentication with Google Sign-In (e.g. using the [GoogleAuthR](https://github.com/MarkEdmondson1234/GoogleAuthR) package). I just liked this way and it was the easiest for me to get up and running quickly.
 
